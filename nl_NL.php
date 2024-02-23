@@ -1,12 +1,12 @@
 <?php
 
 /**
- * NL Dutch Language File
+ * Dutch Language File
  *
- * Date:			10 Sept 2009
- * Revision:		Jan 2023
- * Version:			GetSimple 3.3.18-CE
- * Traductors: 		GS Community 
+ * Date: 		2009.09.10
+ * Revision:	2023.07.23
+ * Version:		GetSimple 3.3.19 CE
+ * Traductors: 	GS Community 
  *
  * @package GetSimple
  * @subpackage Language
@@ -14,10 +14,10 @@
 
 $i18n = [
 
-/* 
- * For: install.php
-*/
-    'PHPVER_ERROR' => "<b>Voortgang is mislukt:</b> PHP 5.1.3 of hoger is benodigd, u hebt versie ",
+    /* 
+     * For: install.php
+    */
+    'PHPVER_ERROR' => "<b>Voortgang is mislukt:</b> PHP 7.4 of hoger is benodigd, u hebt versie ",
     'SIMPLEXML_ERROR' => "<b>Voortgang is mislukt:</b> <em>SimpleXML</em> is niet ge&iuml;nstalleerd",
     'CURL_WARNING' => "<b>Waarschuwing:</b> <em>cURL</em> is niet ge&iuml;nstalleerd",
     'TZ_WARNING' => "<b>Waarschuwing:</b> <em>date_default_timezone_set</em> is niet gevonden",
@@ -49,9 +49,9 @@ $i18n = [
     'SITE_UPDATED' => "Uw site is bijgewerkt",
     'SERVICE_UNAVAILABLE' => "Deze pagina is tijdelijk niet beschikbaar",
 
-/* 
- * For: pages.php
-*/
+    /* 
+     * For: pages.php
+    */
     'MENUITEM_SUBTITLE' => "Menu-item",
     'HOMEPAGE_SUBTITLE' => "Home-pagina",
     'PRIVATE_SUBTITLE' => "Priv&eacute;",
@@ -63,9 +63,9 @@ $i18n = [
     'TOTAL_PAGES' => "pagina('s) in totaal",
     'ALL_PAGES' => "Alle pagina's",
 
-/* 
- * For: edit.php
-*/
+    /* 
+     * For: edit.php
+    */
     'PAGE_NOTEXIST' => "De opgevraagde pagina bestaat niet",
     'BTN_SAVEPAGE' => "Sla pagina op",
     'BTN_SAVEUPDATES' => "Sla updates op",
@@ -95,9 +95,9 @@ $i18n = [
     'SAVE_AND_CLOSE' => "Opslaan &amp; Sluiten",
     'PAGE_UNSAVED' => "Nog niet opgeslagen wijzigingen",
 
-/* 
- * For: upload.php
-*/
+    /* 
+     * For: upload.php
+    */
     'ERROR_UPLOAD' => "Er is een probleem met het uploaden van uw bestand",
     'FILE_SUCCESS_MSG' => "Succes! Bestandslocatie ",
     'FILE_MANAGEMENT' => "Bestandsbeheer",
@@ -107,29 +107,29 @@ $i18n = [
     'DELETE_FILE' => "Verwijder bestand",
     'TOTAL_FILES' => "Totaal aantal bestanden",
 
-/* 
- * For: logout.php
-*/
+    /* 
+     * For: logout.php
+    */
     'MSG_LOGGEDOUT' => "U bent nu uitgelogd",
 
-/* 
- * For: index.php
-*/
+    /* 
+     * For: index.php
+    */
     'LOGIN' => "Login",
     'USERNAME' => "Gebruikersnaam",
     'PASSWORD' => "Wachtwoord",
     'FORGOT_PWD' => "Wachtwoord vergeten?",
     'CONTROL_PANEL' => "Controlepaneel",
 
-/* 
- * For: navigation.php
-*/
+    /* 
+     * For: navigation.php
+    */
     'CURRENT_MENU' => "Huidig menu",
     'NO_MENU_PAGES' => "Er zijn geen pagina's toegewezen aan het menu",
 
-/* 
- * For: theme-edit.php
-*/
+    /* 
+     * For: theme-edit.php
+    */
     'TEMPLATE_FILE' => "Templatebestand <b>%en</b> is bijgewerkt!",
     'THEME_MANAGEMENT' => "Themabeheer",
     'EDIT_THEME' => "Wijzig thema",
@@ -137,9 +137,9 @@ $i18n = [
     'BTN_SAVECHANGES' => "Bewaar wijzigingen",
     'EDIT' => "Wijzig",
 
-/* 
- * For: support.php
-*/
+    /* 
+     * For: support.php
+    */
     'SETTINGS_UPDATED' => "Uw instellingen zijn bijgewerkt",
     'UNDO' => "Ongedaan maken",
     'SUPPORT' => "Help",
@@ -148,9 +148,10 @@ $i18n = [
     'BTN_SAVESETTINGS' => "Bewaar voorkeuren",
     'VIEW_FAILED_LOGIN' => "Bekijk niet-geslaagde inlogpogingen",
 
-/* 
- * For: log.php
-*/
+
+    /* 
+     * For: log.php
+    */
     'MSG_HAS_BEEN_CLR' => " is geleegd",
     'LOGS' => "Logs",
     'VIEWING' => "Bekijken",
@@ -160,9 +161,9 @@ $i18n = [
     'LOG_FILE_ENTRY' => "LOGBESTAND-ITEM",
     'THIS_COMPUTER' => "Deze computer",
 
-/* 
- * For: backup-edit.php
-*/
+    /* 
+     * For: backup-edit.php
+    */
     'BAK_MANAGEMENT' => "Backup-beheer",
     'ASK_CANCEL' => "<em>C</em>ancel",
     'ASK_RESTORE' => "<em>R</em>estore",
@@ -174,34 +175,35 @@ $i18n = [
     'DATE' => "Datum",
     'PERMS' => "Rechten",
 
-/* 
- * For: components.php
-*/
+	/* 
+	 * For: components.php
+	*/
     'COMPONENTS' => "Componenten",
     'DELETE_COMPONENT' => "Verwijder component",
+	"EDIT"					=>	"Edit",
     'ADD_COMPONENT' => "<em>V</em>oeg component toe",
     'SAVE_COMPONENTS' => "Bewaar componenten",
 
-/* 
- * For: sitemap.php
-*/
+	/* 
+	 * For: sitemap.php
+	*/
     'SITEMAP_CREATED' => "Sitemap gecre&euml;erd! Tevens hebben we 4 zoekmachines ge<em>ping</em>d over de updates",
     'SITEMAP_ERRORPING' => "Sitemap gecre&euml;erd, hoewel er een fout optrad bij het pingen van 1 of meerdere zoekmachines!",
     'SITEMAP_ERROR' => "Het was niet mogelijk uw sitemap te genereren!",
     'SITEMAP_WAIT' => "<b>Wacht a.u.b.:</b>De Sitemap van uw website wordt gecre&euml;erd",
 
-/* 
- * For: theme.php
-*/
+    /* 
+     * For: theme.php
+    */
     'THEME_CHANGED' => "Uw thema is met succes gewijzigd",
     'CHOOSE_THEME' => "Kies uw thema",
     'ACTIVATE_THEME' => "Activeer thema",
     'THEME_SCREENSHOT' => "Thema-afbeelding",
     'THEME_PATH' => "Huidig themapad",
 
-/* 
- * For: resetpassword.php
-*/
+    /* 
+     * For: resetpassword.php
+    */
     'RESET_PASSWORD' => "Reset wachtwoord",
     'YOUR_NEW' => "Uw nieuwe",
     'PASSWORD_IS' => "wachtwoord is",
@@ -209,9 +211,9 @@ $i18n = [
     'MSG_PLEASE_EMAIL' => "Vul a.u.b. uw (in dit systeem geregistreerde) e-mailadres in. Een nieuw wachtwoord wordt dan verzonden naar dit e-mailadres.",
     'SEND_NEW_PWD' => "Verzend nieuw wachtwoord",
 
-/* 
- * For: settings.php
-*/
+    /* 
+     * For: settings.php
+    */
     'GENERAL_SETTINGS' => "Algemene voorkeuren",
     'WEBSITE_SETTINGS' => "Websitevoorkeuren",
     'LOCAL_TIMEZONE' => "Lokale tijdzone",
@@ -230,9 +232,9 @@ $i18n = [
     'FLUSHCACHE-SUCCESS' => "Alle caches succesvol geleegd",
     'DISPLAY_NAME' => "Openbaar weer te geven naam (NIET uw gebruikersnaam!)",
 
-/* 
- * For: health-check.php
-*/
+    /* 
+     * For: health-check.php
+    */
     'WEB_HEALTH_CHECK' => "Statuscontrole van de website",
     'VERSION' => "Versie",
     'UPG_NEEDED' => "Aanbevolen upgrade naar",
@@ -257,22 +259,22 @@ $i18n = [
     'WRITABLE' => "Schrijfbaar",
     'NOT_WRITABLE' => "Niet schrijfbaar",
 
-/* 
- * For: footer.php
-*/
+    /* 
+     * For: footer.php
+    */
     'POWERED_BY' => "Draait op",
 
-/* 
- * For: backups.php
-*/
+    /* 
+     * For: backups.php
+    */
     'PAGE_BACKUPS' => "Pagina-backups",
     'ASK_DELETE_ALL' => "Verwijder alles",
     'DELETE_ALL_BAK' => "Verwijder alle backups?",
     'TOTAL_BACKUPS' => "Totaal aantal backups",
 
-/* 
- * For: archive.php
-*/
+    /* 
+     * For: archive.php
+    */
     'SUCC_WEB_ARCHIVE' => "Website met succes gearchiveerd",
     'SUCC_WEB_ARC_DEL' => "Website-archief met succes verwijderd",
     'WEBSITE_ARCHIVES' => "Website-archieven",
@@ -284,9 +286,9 @@ $i18n = [
     'DELETE_ARCHIVE' => "Verwijder archief",
     'TOTAL_ARCHIVES' => "Totaal aantal archieven",
 
-/* 
- * For: include-nav.php
-*/
+	/* 
+	 * For: include-nav.php
+	*/
     'WELCOME' => "Welkom",
     'TAB_PAGES' => "<em>P</em>agina's",
     'TAB_FILES' => "<em>B</em>estanden",
@@ -297,32 +299,32 @@ $i18n = [
     'TAB_SUPPORT' => "Supp<em>o</em>rt",
     'TAB_LOGOUT' => "<em>U</em>itloggen",
 
-/* 
- * For: sidebar-files.php
-*/
+    /* 
+     * For: sidebar-files.php
+    */
     'BROWSE_COMPUTER' => "Blader op uw computer",
     'UPLOAD' => "Upload",
 
-/* 
- * For: sidebar-support.php
-*/
+    /* 
+     * For: sidebar-support.php
+    */
     'SIDE_SUPPORT_LOG' => "Supp<em>o</em>rt",
     'SIDE_HEALTH_CHK' => "<em>S</em>tatuscontrole van de website",
     'SIDE_DOCUMENTATION' => "Wiki-documentatie",
     'SIDE_VIEW_LOG' => "Bekijk logbestand",
 
-/* 
- * For: sidebar-theme.php
-*/
+    /* 
+     * For: sidebar-theme.php
+    */
     'SIDE_VIEW_SITEMAP' => "<em>B</em>ekijk Sitemap",
     'SIDE_GEN_SITEMAP' => "<em>G</em>enereer Sitemap",
     'SIDE_COMPONENTS' => "<em>W</em>ijzig Componenten",
     'SIDE_EDIT_THEME' => "Wijzig <em>T</em>hema",
     'SIDE_CHOOSE_THEME' => "Kies <em>T</em>hema",
 
-/* 
- * For: sidebar-pages.php
-*/
+    /* 
+     * For: sidebar-pages.php
+    */
     'SIDE_CREATE_NEW' => "<em>C</em>re&euml;er een nieuwe pagina",
     'SIDE_VIEW_PAGES' => "Bekijk alle <em>p</em>agina's",
 
@@ -339,9 +341,9 @@ $i18n = [
     'SIDE_WEB_ARCHIVES' => "<em>W</em>ebsite-archieven",
     'SIDE_PAGE_BAK' => "Pagina-<em>b</em>ackups",
 
-/* 
- * For: error_checking.php
-*/
+    /* 
+     * For: error_checking.php
+    */
     'ER_PWD_CHANGE' => "Niet vergeten het huidige, willekeurig gegenereerde, wachtwoord <a href=\"settings.php#profile\">wachtwoord</a> te wijzigen ...",
     'ER_BAKUP_DELETED' => "De backup voor %s is verwijderd",
     'ER_REQ_PROC_FAIL' => "Het aangevraagde proces is mislukt",
@@ -359,15 +361,15 @@ $i18n = [
     'ER_COMPONENT_REST' => "Uw componenten zijn teruggezet",
     'ER_CANCELLED_FAIL' => "<b>Geannuleerd:</b> Deze update is geannuleerd",
 
-/* 
- * For: changedata.php
-*/
+    /* 
+     * For: changedata.php
+    */
     'CANNOT_SAVE_EMPTY' => "Een pagina zonder paginatitel opslaan is niet mogelijk",
     'META_DESC' => "Meta-beschrijving",
 
-/* 
- * For: template_functions.php
-*/
+	/* 
+	 * For: template_functions.php
+	*/
     'FTYPE_COMPRESSED' => "Gecomprimeerd",
     'FTYPE_VECTOR' => "Vector",
     'FTYPE_FLASH' => "Flash",
@@ -379,28 +381,28 @@ $i18n = [
     'FTYPE_MISC' => "Allerlei/Overig",
     'IMAGES' => "Afbeeldingen",
 
-/* 
- * For: login_functions.php
-*/
+	/* 
+	 * For: login_functions.php
+	*/
     'FILL_IN_REQ_FIELD' => "Vul a.u.b. alle benodigde velden in",
     'LOGIN_FAILED' => "Inloggen is mislukt! Controleer uw gebruikersnaam en wachtwoord",
 
-/* 
- * For: Date Format
-*/
+	/* 
+	 * For: Date Format
+	*/
     'DATE_FORMAT' => "j, m, Y",
     'DATE_AND_TIME_FORMAT' => "F jS, Y - g:i A",
 
-/* 
- * For: support.php
-*/
+	/* 
+	 * For: support.php
+	*/
     'WELCOME_MSG' => "Bedankt voor het kiezen van GetSimple als uw content-management-systeem!",
     'WELCOME_P' => "GetSimple maakt het beheren van een website zo eenvoudig mogelijk door zijn 'beste-van-de-klas'-gebruikersomgeving. Wij streven ernaar het systeem zowel eenvoudig als krachtig te houden, zodat het voor zowel de gebruiker als de ontwikkelaar geschikt is.</p><p><strong>Enkele eerste bruikbare stappen:</strong></p>",
     'GETTING_STARTED' => "De eerste stappen",
 
-/* 
- * For: image.php
-*/
+    /* 
+     * For: image.php
+    */
     'CURRENT_THUMBNAIL' => "Huidige Thumbnail",
     'RECREATE' => "maak opnieuw",
     'CREATE_ONE' => "maak er een",
@@ -416,9 +418,9 @@ $i18n = [
     'LINK_THUMBNAIL' => "Thumbnail Link",
     'HTML_THUMB_ORIG' => "Van Thumbnail-naar-Afb. HTML",
 
-/* 
- * For: plugins.php
-*/
+    /* 
+     * For: plugins.php
+    */
     'PLUGINS_MANAGEMENT' => "Plugin-beheer",
     'PLUGINS_INSTALLED' => "plugins ge&iuml;nstalleerd",
     'PLUGIN_DISABLED' => "Gedeactiveerde plugins",
@@ -432,9 +434,9 @@ $i18n = [
 	 * SINCE Version 3.0
 	***********************************************************************************/
 
-/* 
- * For: setup.php
- */
+	/* 
+	 * For: setup.php
+	 */
     'ROOT_HTACCESS_ERROR' => "Het is niet gelukt het bestand .htaccess te maken in root! Kopieer <b>%s</b> naar <b>.htaccess</b> en verander <code>%s</code> in <code>%s</code>",
     'REMOVE_TEMPCONFIG_ERROR' => "Het is niet gelukt het bestand <b>%s</b> te verwijderen! Doe het handmatig a.u.b.",
     'MOVE_TEMPCONFIG_ERROR' => "Het is niet gelukt het bestand <b>%s</b> te hernoemen naar <b>%s</b>! Doe het handmatig a.u.b.",
@@ -442,9 +444,9 @@ $i18n = [
     'REFRESH' => "Vernieuwen",
     'BETA' => "Beta / Bleeding Edge",
 
-/*
- * Misc Cleanup Work
- */
+	/*
+	 * Misc Cleanup Work
+	 */
 	# new to 3.0 
     'HOMEPAGE_DELETE_ERROR' => "De Home-pagina kan niet worden verwijderd!",
     'NO_ZIPARCHIVE' => "De ZipArchive-extentie is niet ingeladen. Deze actie kan niet voltooid worden",
@@ -477,8 +479,8 @@ $i18n = [
     'FILE_NAME' => "Bestandsnaam",
     'FILE_SIZE' => "Grootte",
     'ARCHIVE_DATE' => "Archiveerdatum",
-    'CKEDITOR_LANG' => "en",
-    
+    'CKEDITOR_LANG' => "nl",
+
 	# new to 3.1 
     'XML_INVALID' => "Ongeldige XML",
     'XML_VALID' => "Geldige XML",
@@ -506,8 +508,8 @@ $i18n = [
 
 
     /* 
- * For: api related pages
- */
+     * For: api related pages
+     */
     'API_ERR_MISSINGPARAM' => "Parameter bestaat niet",
     'API_ERR_BADMETHOD' => "Methode %s bestaat niet",
     'API_ERR_AUTHFAILED' => "Authenticatie is mislukt",

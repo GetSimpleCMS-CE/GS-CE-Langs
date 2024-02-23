@@ -3,10 +3,10 @@
 /*
  * Spanish Language File
  *
- * Date:			21 November 2015
- * Revision:		Jan 2023
- * Version:			GetSimple 3.3.18-CE
- * Traductors: 		GS Community
+ * Date:		2015.11.21
+ * Revision:	2023.07.23
+ * Version:		GetSimple 3.3.19 CE
+ * Traductors: 	GS Community 
  *
  * @package GetSimple
  * @subpackage Language
@@ -14,27 +14,27 @@
 
 $i18n = [
 
-	/* 
-	 * For: install.php
-	 */
-	"PHPVER_ERROR"			=>	"<b>No se puede continuar:</b> PHP 7.2 o superior requerido, usted tiene ",
-	"SIMPLEXML_ERROR"		=>	"<b>No se puede continuar:</b> SimpleXML no está instalado",
-	"CURL_WARNING"			=>	"<b>Aviso:</b> cURL no está instalado",
-	"TZ_WARNING"			=>	"<b>Aviso:</b> date_default_timezone_set no encontrada",
+    /* 
+     * For: install.php
+    */
+	"PHPVER_ERROR"			=>	"<b>No es posible continuar:</b> PHP 7.4 o superior requerido, usted tiene ",
+	"SIMPLEXML_ERROR"		=>	"<b>No es posible continuar:</b> SimpleXML no instalado",
+	"CURL_WARNING"			=>	"<b>Aviso:</b> cURL no instalado",
+	"TZ_WARNING"			=>	"<b>Aviso:</b> date_default_timezone_set no ",
 	"WEBSITENAME_ERROR"		=>	"<b>Error:</b> Ha habido un problema con el título de tu sitio web.",
 	"WEBSITEURL_ERROR"		=>	"<b>Error:</b> Ha habido un problema con en elace de su sitio web.",
 	"USERNAME_ERROR"		=>	"<b>Error:</b> Usuario no establecido",
 	"EMAIL_ERROR"			=>	"<b>Error:</b> Ha habido un error con su correo electrónico.",
-	"CHMOD_ERROR"			=>	"<b>encontrada:</b> No se puede escribir al archivo de configuración. CHMOD 755 o 777 a las carpetas y subcarpetas y pruebe de nuevo <code>/data</code>, <code>/backups</code>.",
+	"CHMOD_ERROR"			=>	"<b>No es posible continuar:</b> No se pudo escribir al archivo de configuración. CHMOD 755 o 777 a las carpetas y subcarpetas y pruebe de nuevo <code>/data</code>, <code>/backups</code>.",
 	"EMAIL_COMPLETE"		=>	"Instalación completada",
-	"EMAIL_USERNAME"		=>	"El nombre de usuario es",
-	"EMAIL_PASSWORD"		=>	"La nueva contraseña es",
-	"EMAIL_LOGIN"			=>	"Iniciar sesión aquí",
-	"EMAIL_THANKYOU"		=>	"Gracias por utilizar",
+	"EMAIL_USERNAME"		=>	"Su usuario es",
+	"EMAIL_PASSWORD"		=>	"Su nueva contraseña es",
+	"EMAIL_LOGIN"			=>	"Entre desde aquí",
+	"EMAIL_THANKYOU"		=>	"Gracias por usar",
 	"NOTE_REGISTRATION"		=>	"Su información de registro se envió a",
 	"NOTE_REGERROR"			=>	"<b>Error:</b> Hubo un problema al enviar la información de registro por correo electrónico. Por favor, apunte la siguiente contraseña",
-	"NOTE_USERNAME"			=>	"El nombre de usuario es",
-	"NOTE_PASSWORD"			=>	"y la contraseña es",
+	"NOTE_USERNAME"			=>	"Su usuario es",
+	"NOTE_PASSWORD"			=>	"y su contraseña es",
 	"INSTALLATION"			=>	"Instalación",
 	"LABEL_WEBSITE"			=>	"Nombre del sitio web",
 	"LABEL_BASEURL"			=>	"URL del sitio web",
@@ -43,9 +43,9 @@ $i18n = [
 	"LABEL_DISPNAME"		=>	"Nombre a mostrar",
 	"LABEL_EMAIL"			=>	"Correo electrónico",
 	"LABEL_INSTALL"			=>	"Instalar ahora",
-	"SELECT_LANGUAGE"		=>  "Seleccionar idioma",
+	"SELECT_LANGUAGE"		=>  "Seleccione su idioma",
 	"CONTINUE_SETUP" 		=>  "Continuar con instalación",
-	"DOWNLOAD_LANG" 		=>  "Descargar idiomas adicionales",
+	"DOWNLOAD_LANG" 		=>  "Descargar idiomas",
 	"SITE_UPDATED"			=>	"Su sitio ha sido actualizado.",
 	"SERVICE_UNAVAILABLE"	=>	"Esta página es temporalmente indisponible",
 
@@ -92,8 +92,8 @@ $i18n = [
 	"LAST_SAVED"			=>	"Último cambio realizado por %s en",
 	"FILE_UPLOAD"			=>	"Subir archivo",
 	"OR"					=>	"o",
-	"SAVE_AND_CLOSE"		=> "Guardar y Cerrar",
-	"PAGE_UNSAVED"			=>	"Hay cambios sin guardar",
+	"SAVE_AND_CLOSE"		=> "Guardar &amp; Cerrar",
+	"PAGE_UNSAVED"			=>	"Página con cambios sin guardar",
 
 	/* 
 	 * For: upload.php
@@ -436,9 +436,9 @@ $i18n = [
 	/* 
 	 * For: setup.php
 	 */
-	"ROOT_HTACCESS_ERROR" 	=> "¡Error al crear .htaccess en la raíz! Por favor, copie <code>%s</code> a <code>.htaccess</code> y cambie <code>%s</code> a <code>%s</code>",
-	"REMOVE_TEMPCONFIG_ERROR" => "¡Error al eliminar <code>%s</code>! Hágalo manualmente por favor",
-	"MOVE_TEMPCONFIG_ERROR" => "¡Error al renombrar <code>%s</code> a <code>%s</code>! Hágalo manualmente por favor.",
+	"ROOT_HTACCESS_ERROR" 	=> "¡Fallo al crear .htaccess en la raíz! Por favor, copie <code>%s</code> a <code>.htaccess</code> y cambie <code>%s</code> a <code>%s</code>",
+	"REMOVE_TEMPCONFIG_ERROR" => "¡Fallo al eliminar <code>%s</code>! Hágalo manualmente por favor",
+	"MOVE_TEMPCONFIG_ERROR" => "¡Fallo al renombrar <code>%s</code> a <code>%s</code>! Hágalo manualmente por favor.",
 	"KILL_CANT_CONTINUE" 	=> "No se puede continuar, arregle los errores e inténtelo de nuevo.",
 	"REFRESH" 				=> "Refrescar",
 	"BETA"					=> "Beta / Bleeding Edge",
@@ -447,13 +447,13 @@ $i18n = [
 	 * Misc Cleanup Work
 	 */
 	# new to 3.0 
-	"HOMEPAGE_DELETE_ERROR" => "No puede eliminar la página principal", //deletefile
+	"HOMEPAGE_DELETE_ERROR" => "No puede eliminar su página principal", //deletefile
 	"NO_ZIPARCHIVE" 		=> "Extensión ZipArchive no instalada. No se puede continuar", //zip
 	"REDIRECT_MSG"			=> "Si su navegador no le redirije, click <a href=\"%s\">aquí</a>", //basic
-	"REDIRECT"				=> "Redirigir", //basic
+	"REDIRECT"				=> "Redireccionar", //basic
 	"DENIED"				=> "Denegado", //sitemap
 	"DEBUG_MODE"			=> "MODO DEBUG", //nav-include
-	"DOUBLE_CLICK_EDIT"		=> "Doble clic para editar", //components
+	"DOUBLE_CLICK_EDIT"		=> "Doble click para editar", //components
 	"THUMB_SAVED"			=> "Miniatura guardada", //image
 	"EDIT_COMPONENTS"		=>	"Editar componentes", //components
 	"REQS_MORE_INFO"		=> "Para más información en los módulos requeridos, visite la <a href=\"%s\" target=\"_blank\" >página de requisitos</a>.", //install & health-check

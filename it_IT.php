@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Italian Language File
  *
- * Date: 		19 Jul 2017
- * Revision:		Jan 2023
- * Version:			GetSimple 3.3.18-CE
- * Traductors: 		GS Community 
+ * Date:		2017.07.19
+ * Revision:	2023.07.23
+ * Version:		GetSimple 3.3.19 CE
+ * Traductors: 	GS Community 
  *
  * @package GetSimple
  * @subpackage Language
@@ -13,9 +14,9 @@
 
 $i18n = [
 
-/* 
- * For: install.php
-*/
+    /* 
+     * For: install.php
+    */
 "PHPVER_ERROR" => "<strong>Impossibile proseguire:</strong> Richiesto PHP 5.1.3 o maggiore, al momento è installato ",
 "SIMPLEXML_ERROR" => "<strong>Impossibile proseguire:</strong> <em>SimpleXML</em> non è installato",
 "CURL_WARNING" => "<strong>Attenzione:</strong> <em>cURL</em> non è installato",
@@ -48,9 +49,9 @@ $i18n = [
 "SITE_UPDATED" => "Il tuo sito è stato aggiornato",
 "SERVICE_UNAVAILABLE" => "Questa pagina non è al momento disponibile",
 
-/* 
- * For: pages.php
-*/
+    /* 
+     * For: pages.php
+    */
 "MENUITEM_SUBTITLE" => "oggetto del menu",
 "HOMEPAGE_SUBTITLE" => "homepage",
 "PRIVATE_SUBTITLE" => "privata",
@@ -62,9 +63,9 @@ $i18n = [
 "TOTAL_PAGES" => "pagine totali",
 "ALL_PAGES" => "Pagine",
 
-/* 
- * For: edit.php
-*/
+    /* 
+     * For: edit.php
+    */
 "PAGE_NOTEXIST" => "La pagina richiesta non esiste",
 "BTN_SAVEPAGE" => "Salva pagina",
 "BTN_SAVEUPDATES" => "Salva le modifiche",
@@ -94,9 +95,9 @@ $i18n = [
 "SAVE_AND_CLOSE" => "Salva e chiudi",
 "PAGE_UNSAVED" => "La pagina ha modifiche non salvate",
 
-/* 
- * For: upload.php
-*/
+    /* 
+     * For: upload.php
+    */
 "ERROR_UPLOAD" => "C'è stato un problema con il caricamento dei file",
 "FILE_SUCCESS_MSG" => "Terminato con successo! Percorso del file",
 "FILE_MANAGEMENT" => "Gestione file",
@@ -106,29 +107,29 @@ $i18n = [
 "DELETE_FILE" => "Elimina file",
 "TOTAL_FILES" => "file e cartelle totali",
 
-/* 
- * For: logout.php
-*/
+    /* 
+     * For: logout.php
+    */
 "MSG_LOGGEDOUT" => "Ti sei disconnesso.",
 
-/* 
- * For: index.php
-*/
+    /* 
+     * For: index.php
+    */
 "LOGIN" => "Accedi",
 "USERNAME" => "Nome utente",
 "PASSWORD" => "Password",
 "FORGOT_PWD" => "Hai dimenticato la password?",
 "CONTROL_PANEL" => "Pannello di controllo login",
 
-/* 
- * For: navigation.php
-*/
+    /* 
+     * For: navigation.php
+    */
 "CURRENT_MENU" => "Menu corrente",
 "NO_MENU_PAGES" => "Nessuna pagina impostata per apparire nel menu principale",
 
-/* 
- * For: theme-edit.php
-*/
+    /* 
+     * For: theme-edit.php
+    */
 "TEMPLATE_FILE" => "Il modello <strong>%s</strong> è stato aggiornato con successo!",
 "THEME_MANAGEMENT" => "Gestione temi",
 "EDIT_THEME" => "Editor dei temi",
@@ -136,9 +137,9 @@ $i18n = [
 "BTN_SAVECHANGES" => "Salva modifiche",
 "EDIT" => "Modifica",
 
-/* 
- * For: support.php
-*/
+    /* 
+     * For: support.php
+    */
 "SETTINGS_UPDATED" => "Le impostazioni sono state salvate",
 "UNDO" => "Annulla",
 "SUPPORT" => "Supporto",
@@ -148,9 +149,9 @@ $i18n = [
 "VIEW_FAILED_LOGIN" => "Visualizza tentativi di accesso falliti",
 
 
-/* 
- * For: log.php
-*/
+    /* 
+     * For: log.php
+    */
 "MSG_HAS_BEEN_CLR" => "è stato ripulito",
 "LOGS" => "Log",
 "VIEWING" => "Viste",
@@ -160,9 +161,9 @@ $i18n = [
 "LOG_FILE_ENTRY" => "VOCE DEL FILE DI LOG",
 "THIS_COMPUTER" => "Questo computer",
 
-/* 
- * For: backup-edit.php
-*/
+    /* 
+     * For: backup-edit.php
+    */
 "BAK_MANAGEMENT" => "Gestione backup",
 "ASK_CANCEL" => "Annulla",
 "ASK_RESTORE" => "Ripristina",
@@ -174,35 +175,35 @@ $i18n = [
 "DATE" => "Data",
 "PERMS" => "Permessi",
 
-/* 
- * For: components.php
-*/
+	/* 
+	 * For: components.php
+	*/
 "COMPONENTS" => "Componenti",
 "DELETE_COMPONENT" => "Elimina componente",
 "EDIT" => "Modifica",
 "ADD_COMPONENT" => "Aggiungi componente",
 "SAVE_COMPONENTS" => "Salva componenti",
 
-/* 
- * For: sitemap.php
-*/
+	/* 
+	 * For: sitemap.php
+	*/
 "SITEMAP_CREATED" => "Mappa del sito creata ed inviata con successo a 4 motori di ricerca",
 "SITEMAP_ERRORPING" => "Mappa del sito creata, tuttavia c'è stato un errore durante l'invio ad uno o più motori di ricerca",
 "SITEMAP_ERROR" => "La mappa del sito non può essere generata",
 "SITEMAP_WAIT" => "<strong>Attendere:</strong> Creazione della mappa del sito in corso",
 
-/* 
- * For: theme.php
-*/
+    /* 
+     * For: theme.php
+    */
 "THEME_CHANGED" => "Il tema è stato cambiato con successo",
 "CHOOSE_THEME" => "Scegli il tema",
 "ACTIVATE_THEME" => "Attiva tema",
 "THEME_SCREENSHOT" => "Schermata del tema",
 "THEME_PATH" => "Percorso del tema",
 
-/* 
- * For: resetpassword.php
-*/
+    /* 
+     * For: resetpassword.php
+    */
 "RESET_PASSWORD" => "Reset password",
 "YOUR_NEW" => "La tua nuova",
 "PASSWORD_IS" => "password è",
@@ -210,9 +211,9 @@ $i18n = [
 "MSG_PLEASE_EMAIL" => "Per favore inserisci il nome utente registrato nel sistema ed una nuova password sarà inviata al rispettivo indirizzo email.",
 "SEND_NEW_PWD" => "Invia nuova password",
 
-/* 
- * For: settings.php
-*/
+    /* 
+     * For: settings.php
+    */
 "GENERAL_SETTINGS" => "Impostazioni generali",
 "WEBSITE_SETTINGS" => "Impostazioni sito",
 "LOCAL_TIMEZONE" => "Fuso orario locale",
@@ -231,9 +232,9 @@ $i18n = [
 "FLUSHCACHE-SUCCESS" => "Cache pulite con successo",
 "DISPLAY_NAME" => "Nome da mostrare pubblicamente (diverso dal nome utente)",
 
-/* 
- * For: health-check.php
-*/
+    /* 
+     * For: health-check.php
+    */
 "WEB_HEALTH_CHECK" => "Stato di salute del sito",
 "VERSION" => "Versione",
 "UPG_NEEDED" => "Si raccomanda di aggiornare",
@@ -258,22 +259,22 @@ $i18n = [
 "WRITABLE" => "Modificabile",
 "NOT_WRITABLE" => "Non modificabile",
 
-/* 
- * For: footer.php
-*/
-"POWERED_BY" => "Powered by",
+    /* 
+     * For: footer.php
+    */
+    "POWERED_BY"			=>	"Powered by",
 
-/* 
- * For: backups.php
-*/
+    /* 
+     * For: backups.php
+    */
 "PAGE_BACKUPS" => "Backup pagine",
 "ASK_DELETE_ALL" => "Elimina tutti",
 "DELETE_ALL_BAK" => "Eliminare tutti i backup?",
 "TOTAL_BACKUPS" => "backup totali",
 
-/* 
- * For: archive.php
-*/
+    /* 
+     * For: archive.php
+    */
 "SUCC_WEB_ARCHIVE" => "Un archivio del sito è stato creato con successo",
 "SUCC_WEB_ARC_DEL" => "L'archivio selezionato è stato eliminato con successo",
 "WEBSITE_ARCHIVES" => "Archivi del sito",
@@ -285,9 +286,9 @@ $i18n = [
 "DELETE_ARCHIVE" => "Elimina archivio",
 "TOTAL_ARCHIVES" => "archivi totali",
 
-/* 
- * For: include-nav.php
-*/
+	/* 
+	 * For: include-nav.php
+	*/
 "WELCOME" => "Benvenuto",
 "TAB_PAGES" => "Pagine",
 "TAB_FILES" => "File",
@@ -298,51 +299,51 @@ $i18n = [
 "TAB_SUPPORT" => "Supporto",
 "TAB_LOGOUT" => "Disconnetti",
 
-/* 
- * For: sidebar-files.php
-*/
+    /* 
+     * For: sidebar-files.php
+    */
 "BROWSE_COMPUTER" => "Sfoglia...",
 "UPLOAD" => "Carica",
 
-/* 
- * For: sidebar-support.php
-*/
+    /* 
+     * For: sidebar-support.php
+    */
 "SIDE_SUPPORT_LOG" => "Supporto",
 "SIDE_HEALTH_CHK" => "Stato di salute del sito",
 "SIDE_DOCUMENTATION" => "Documentazione wiki",
 "SIDE_VIEW_LOG" => "Vedi log",
 
-/* 
- * For: sidebar-theme.php
-*/
+    /* 
+     * For: sidebar-theme.php
+    */
 "SIDE_VIEW_SITEMAP" => "Mostra mappa del sito",
 "SIDE_GEN_SITEMAP" => "Genera mappa del sito",
 "SIDE_COMPONENTS" => "Modifica componenti",
 "SIDE_EDIT_THEME" => "Modifica tema",
 "SIDE_CHOOSE_THEME" => "Scegli tema",
 
-/* 
- * For: sidebar-pages.php
-*/
+    /* 
+     * For: sidebar-pages.php
+    */
 "SIDE_CREATE_NEW" => "Crea una nuova pagina",
 "SIDE_VIEW_PAGES" => "Vedi tutte le pagine",
 
-/* 
- * For: sidebar-settings.php
-*/
+    /* 
+     * For: sidebar-settings.php
+    */
 "SIDE_GEN_SETTINGS" => "Impostazioni generali",
 "SIDE_USER_PROFILE" => "Profilo utente",
 
-/* 
- * For: sidebar-backups.php
-*/
+    /* 
+     * For: sidebar-backups.php
+    */
 "SIDE_VIEW_BAK" => "Visualizza pagina backup",
 "SIDE_WEB_ARCHIVES" => "Archivi del sito",
 "SIDE_PAGE_BAK" => "Backup delle pagine",
 
-/* 
- * For: error_checking.php
-*/
+    /* 
+     * For: error_checking.php
+    */
 "ER_PWD_CHANGE" => "Non dimenticare di <a href=\"settings.php#profile\">modificare la tua password</a> da quella attuale generata automaticamente...",
 "ER_BAKUP_DELETED" => "Il backup di <strong>%s</strong> è stato eliminato",
 "ER_REQ_PROC_FAIL" => "Il processo richiesto è fallito",
@@ -360,15 +361,15 @@ $i18n = [
 "ER_COMPONENT_REST" => "I componenti sono stati ripristinati",
 "ER_CANCELLED_FAIL" => "<strong>Annullato:</strong> L'aggiornamento è stato interrotto",
 
-/* 
- * For: changedata.php
-*/
+    /* 
+     * For: changedata.php
+    */
 "CANNOT_SAVE_EMPTY" => "Impossibile salvare una pagina senza titolo",
 "META_DESC" => "Descrizione Meta",
 
-/* 
- * For: template_functions.php
-*/
+	/* 
+	 * For: template_functions.php
+	*/
 "FTYPE_COMPRESSED" => "Compresso", //a file-type
 "FTYPE_VECTOR" => "Vettoriale", //a file-type
 "FTYPE_FLASH" => "Flash", //a file-type
@@ -380,28 +381,28 @@ $i18n = [
 "FTYPE_MISC" => "Altro", //a file-type
 "IMAGES" => "Immagini",
 
-/* 
- * For: login_functions.php
-*/
+	/* 
+	 * For: login_functions.php
+	*/
 "FILL_IN_REQ_FIELD" => "Per favore riempi tutti i campi richiesti",
 "LOGIN_FAILED" => "Accesso fallito. Per favore ricontrolla il nome utente e la password",
 
-/* 
- * For: Date Format
-*/
+	/* 
+	 * For: Date Format
+	*/
 "DATE_FORMAT" => "j M Y",
 "DATE_AND_TIME_FORMAT" => "l j F, Y - G:i",
 
-/* 
- * For: support.php
-*/
+	/* 
+	 * For: support.php
+	*/
 "WELCOME_MSG" => "Grazie di aver scelto GetSimple come tuo CMS!",
 "WELCOME_P" => "GetSimple gestisce il tuo sito nel modo più semplice possibile, con la sua efficiente interfaccia. Puntiamo ad avere un sistema che sia di facile utilizzo per tutti e contemporaneamente abbastanza potente da soddisfare tutte le esigenze degli sviluppatori.</p><p><strong>Alcune funzioni utili:</strong></p>",
 "GETTING_STARTED" => "Per iniziare",
 
-/* 
- * For: image.php
-*/
+    /* 
+     * For: image.php
+    */
 "CURRENT_THUMBNAIL" => "Miniatura corrente",
 "RECREATE" => "ricrea",
 "CREATE_ONE" => "crea",
@@ -417,9 +418,9 @@ $i18n = [
 "LINK_THUMBNAIL" => "Collegamento alla miniatura",
 "HTML_THUMB_ORIG" => "HTML miniatura-a-immagine",
 
-/* 
- * For: plugins.php
-*/
+    /* 
+     * For: plugins.php
+    */
 "PLUGINS_MANAGEMENT" => "Gestione plugin",
 "PLUGINS_INSTALLED" => "plugin installati",
 "PLUGIN_DISABLED" => "Plugin disabilitato",
@@ -429,13 +430,13 @@ $i18n = [
 "PLUGIN_VER" => "Versione",
 "PLUGIN_UPDATED" => "Plugin aggiornato",
 
-/***********************************************************************************
- * SINCE Version 3.0
-***********************************************************************************/
+	/***********************************************************************************
+	 * SINCE Version 3.0
+	***********************************************************************************/
 
-/* 
- * For: setup.php
- */
+	/* 
+	 * For: setup.php
+	 */
 "ROOT_HTACCESS_ERROR" => "Fallita la creazione del file .htaccess nella cartella radice! Per favore copia <code>%s</code> in <code>.htaccess</code> e modifica <code>%s</code> in <code>%s</code>",
 "REMOVE_TEMPCONFIG_ERROR" => "Rimozione di <code>%s</code> fallita! Rimuovere manualmente.",
 "MOVE_TEMPCONFIG_ERROR" => "Rinomina di <code>%s</code> fallita! Rinominare manualmente.",
@@ -443,10 +444,10 @@ $i18n = [
 "REFRESH" => "Aggiorna",
 "BETA" => "Versione Beta",
 
-/*
- * Misc Cleanup Work
- */
-# new to 3.0 
+	/*
+	 * Misc Cleanup Work
+	 */
+	# new to 3.0 
 "HOMEPAGE_DELETE_ERROR" => "Non puoi eliminare la pagina iniziale", //deletefile
 "NO_ZIPARCHIVE" => "L'estensione ZipArchive non è installata. Impossibile proseguire", //zip
 "REDIRECT_MSG" => "Se il tuo browser non ti reindirizza, clicca <a href=\"%s\">qui</a>", //basic
@@ -480,7 +481,7 @@ $i18n = [
 "ARCHIVE_DATE" => "Data di archiviazione", //archive.php
 "CKEDITOR_LANG" => "it", // edit.php ; set CKEditor language, don't forget to include CKEditor language file in translation zip
 
-# new to 3.1 
+	# new to 3.1 
 "XML_INVALID" => "XML non valido", //template-functions.php
 "XML_VALID" => "XML valido",
 "UPDATE_AVAILABLE" => "Aggiorna alla", //plugins.php
@@ -504,11 +505,11 @@ $i18n = [
 "SAVE_MENU_ORDER" => "Salva ordinamento menu", //menu-manager.php
 "MENU_MANAGER_DESC" => "Clicca e trascina gli elementi del menu fino all'ordine desiderato e clicca il pulsante <strong>Salva ordinamento menu</strong>.", //menu-manager.php
 "MENU_MANAGER_SUCCESS" => "Il nuovo ordine del menu è stato salvato", //menu-manager.php
-					  
 
-/* 
- * For: api related pages
- */
+
+    /* 
+     * For: api related pages
+     */
 "API_ERR_MISSINGPARAM" => "dati parametri inesistenti",
 "API_ERR_BADMETHOD" => "metodo <strong>%s</strong> non esiste",
 "API_ERR_AUTHFAILED" => "autenticazione fallita",
@@ -573,10 +574,9 @@ $i18n = [
 
 "X" => "non tradotto",
 
-
-/*
- * Additions for 3.1
- */
+	/*
+	 * Additions for 3.1
+	 */
 "DEBUG_CONSOLE" => 'Console Debug'
 
 ];

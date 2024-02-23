@@ -1,11 +1,12 @@
 <?php
+
 /**
  * German Language File / Deutsche Sprachdatei
  *
- * Date:         2017-06-03
- * Revision:		Jan 2023
- * Version:			GetSimple 3.3.18-CE
- * Traductors: 		GS Community 
+ * Date: 		2017-06-03
+ * Revision:	2023.07.23
+ * Version:		GetSimple 3.3.19 CE
+ * Traductors: 	GS Community 
  *
  * @package GetSimple
  * @subpackage Language
@@ -13,10 +14,10 @@
 
 $i18n = [
 
-/* 
- * For: install.php
-*/
-"PHPVER_ERROR"        => "<b>Installation kann nicht fortgesetzt werden:</b> PHP 5.1.3 oder höher wird benötigt, Sie haben",
+    /* 
+     * For: install.php
+    */
+"PHPVER_ERROR"        => "<b>Installation kann nicht fortgesetzt werden:</b> PHP 7.4 oder höher wird benötigt, Sie haben",
 "SIMPLEXML_ERROR"     => "<b>Installation kann nicht fortgesetzt werden:</b> <em>SimpleXML</em> ist nicht installiert",
 "CURL_WARNING"        => "<b>Warnung:</b> <em>cURL</em> ist nicht installiert",
 "TZ_WARNING"          => "<b>Warnung:</b> <em>date_default_timezone_set</em> ist nicht konfiguriert",
@@ -48,9 +49,9 @@ $i18n = [
 "SITE_UPDATED"        => "Ihre Seite wurde aktualisiert",
 "SERVICE_UNAVAILABLE" => "Diese Seite ist vorübergehend nicht erreichbar",
 
-/* 
- * For: pages.php
-*/
+    /* 
+     * For: pages.php
+    */
 "MENUITEM_SUBTITLE" => "Menü-Eintrag",
 "HOMEPAGE_SUBTITLE" => "Startseite",
 "PRIVATE_SUBTITLE"  => "Privat",
@@ -62,9 +63,9 @@ $i18n = [
 "TOTAL_PAGES"       => "Seiten insgesamt",
 "ALL_PAGES"         => "Seiten",
 
-/* 
- * For: edit.php
-*/
+    /* 
+     * For: edit.php
+    */
 "PAGE_NOTEXIST"    => "Die angeforderte Seite existiert nicht",
 "BTN_SAVEPAGE"     => "Seite speichern",
 "BTN_SAVEUPDATES"  => "Änderungen speichern",
@@ -94,9 +95,9 @@ $i18n = [
 "SAVE_AND_CLOSE"   => "Speichern und schließen",
 "PAGE_UNSAVED"     => "Seite enthält ungespeicherte Änderungen",
 
-/* 
- * For: upload.php
-*/
+    /* 
+     * For: upload.php
+    */
 "ERROR_UPLOAD"     => "Die Datei konnte nicht hochgeladen werden",
 "FILE_SUCCESS_MSG" => "Die Datei wurde erfolgreich gespeichert unter",
 "FILE_MANAGEMENT"  => "Datei-Verwaltung",
@@ -106,29 +107,29 @@ $i18n = [
 "DELETE_FILE"      => "Datei löschen",
 "TOTAL_FILES"      => "Dateien und Ordner",
 
-/* 
- * For: logout.php
-*/
+    /* 
+     * For: logout.php
+    */
 "MSG_LOGGEDOUT" => "Sie sind nun abgemeldet.",
 
-/* 
- * For: index.php
-*/
+    /* 
+     * For: index.php
+    */
 "LOGIN"         => "Anmeldung",
 "USERNAME"      => "Benutzername",
 "PASSWORD"      => "Passwort",
 "FORGOT_PWD"    => "Haben Sie Ihr Passwort vergessen?",
 "CONTROL_PANEL" => "Administrationsbereich",
 
-/* 
- * For: navigation.php
-*/
+    /* 
+     * For: navigation.php
+    */
 "CURRENT_MENU"  => "Aktuelles Menü",
 "NO_MENU_PAGES" => "Es gibt momentan keine Seiten, die im Menü angezeigt werden sollen",
 
-/* 
- * For: theme-edit.php
-*/
+    /* 
+     * For: theme-edit.php
+    */
 "TEMPLATE_FILE"    => "Die Vorlage-Datei <b>%s</b> wurde erfolgreich aktualisiert",
 "THEME_MANAGEMENT" => "Vorlagen-Verwaltung",
 "EDIT_THEME"       => "Vorlage bearbeiten",
@@ -136,9 +137,9 @@ $i18n = [
 "BTN_SAVECHANGES"  => "Änderungen speichern",
 "EDIT"             => "Bearbeiten",
 
-/* 
- * For: support.php
-*/
+    /* 
+     * For: support.php
+    */
 "SETTINGS_UPDATED"  => "Die Einstellungen wurden aktualisiert",
 "UNDO"              => "Rückgängig",
 "SUPPORT"           => "Unterstützung",
@@ -148,9 +149,9 @@ $i18n = [
 "VIEW_FAILED_LOGIN" => "Anzahl der fehlgeschlagenen Anmeldeversuche anzeigen",
 
 
-/* 
- * For: log.php
-*/
+    /* 
+     * For: log.php
+    */
 "MSG_HAS_BEEN_CLR" => " wurde gelöscht",
 "LOGS"             => "Protokoll-Dateien",
 "VIEWING"          => "Anzeigen",
@@ -160,9 +161,9 @@ $i18n = [
 "LOG_FILE_ENTRY"   => "Eintrag in der Protokoll-Datei",
 "THIS_COMPUTER"    => "Dieser Computer",
 
-/* 
- * For: backup-edit.php
-*/
+    /* 
+     * For: backup-edit.php
+    */
 "BAK_MANAGEMENT" => "Sicherungen-Verwaltung",
 "ASK_CANCEL"     => "<em>a</em>bbrechen", // a ist Befehlstaste
 "ASK_RESTORE"    => "<em>w</em>iederherstellen", // w ist Befehlstaste
@@ -174,35 +175,35 @@ $i18n = [
 "DATE"           => "Datum",
 "PERMS"          => "Zugriffsrechte",
 
-/* 
- * For: components.php
-*/
+	/* 
+	 * For: components.php
+	*/
 "COMPONENTS"       => "Komponenten",
 "DELETE_COMPONENT" => "Komponente löschen",
 "EDIT"             => "Bearbeiten",
 "ADD_COMPONENT"    => "Komponente <em>h</em>inzufügen", // 'a' is the accesskey identifier
 "SAVE_COMPONENTS"  => "Komponenten speichern",
 
-/* 
- * For: sitemap.php
-*/
+	/* 
+	 * For: sitemap.php
+	*/
 "SITEMAP_CREATED"   => "Die Sitemap wurde erstellt. Vier Suchmaschinen wurden benachrichtigt",
 "SITEMAP_ERRORPING" => "Die Sitemap wurde erstellt, jedoch trat ein Fehler beim Benachrichtigen der Suchmaschinen auf",
 "SITEMAP_ERROR"     => "Die Sitemap konnte nicht erstellt werden",
 "SITEMAP_WAIT"      => "<b>Bitte warten:</b> Die Sitemap wird gerade erstellt",
 
-/* 
- * For: theme.php
-*/
+    /* 
+     * For: theme.php
+    */
 "THEME_CHANGED"    => "Ihre Vorlage wurde erfolgreich geändert",
 "CHOOSE_THEME"     => "Wählen Sie die gewünschte Vorlage aus",
 "ACTIVATE_THEME"   => "Vorlage aktivieren",
 "THEME_SCREENSHOT" => "Bildschirmfoto der Vorlage",
 "THEME_PATH"       => "Pfad der Vorlagen",
 
-/* 
- * For: resetpassword.php
-*/
+    /* 
+     * For: resetpassword.php
+    */
 "RESET_PASSWORD"   => "Passwort zurücksetzen",
 "YOUR_NEW"         => "Ihr neues",
 "PASSWORD_IS"      => "Passwort lautet",
@@ -210,9 +211,9 @@ $i18n = [
 "MSG_PLEASE_EMAIL" => "Bitte geben Sie Ihren Benutzernamen ein. Anschließend wird ein neu erstelltes Passwort an die hinterlegte E-Mail-Adresse gesandt.",
 "SEND_NEW_PWD"     => "Neues Passwort anfordern",
 
-/* 
- * For: settings.php
-*/
+    /* 
+     * For: settings.php
+    */
 "GENERAL_SETTINGS"   => "Allgemeine Einstellungen",
 "WEBSITE_SETTINGS"   => "Website-Einstellungen",
 "LOCAL_TIMEZONE"     => "Lokale Zeitzone",
@@ -231,9 +232,9 @@ $i18n = [
 "FLUSHCACHE-SUCCESS" => "Zwischenspeicher erfolgreich geleert",
 "DISPLAY_NAME"       => "Dieser Name wird für die öffentliche Darstellung verwendet.",
 
-/* 
- * For: health-check.php
-*/
+    /* 
+     * For: health-check.php
+    */
 "WEB_HEALTH_CHECK" => "Website-Überprüfung",
 "VERSION"          => "Version",
 "UPG_NEEDED"       => "Aktualisierung empfohlen",
@@ -258,22 +259,22 @@ $i18n = [
 "WRITABLE"         => "Beschreibbar",
 "NOT_WRITABLE"     => "Nicht beschreibbar",
 
-/* 
- * For: footer.php
-*/
+    /* 
+     * For: footer.php
+    */
 "POWERED_BY" => "Betrieben mit",
 
-/* 
- * For: backups.php
-*/
+    /* 
+     * For: backups.php
+    */
 "PAGE_BACKUPS"   => "Seiten-Sicherungen",
 "ASK_DELETE_ALL" => "<em>A</em>lle Sicherungen löschen",
 "DELETE_ALL_BAK" => "Alle Sicherungen löschen?",
 "TOTAL_BACKUPS"  => "Alle Sicherungen",
 
-/* 
- * For: archive.php
-*/
+    /* 
+     * For: archive.php
+    */
 "SUCC_WEB_ARCHIVE"  => "Eine Sicherung Ihrer Website wurde erfolgreich erstellt!",
 "SUCC_WEB_ARC_DEL"  => "Die gewählte Sicherung wurde erfolgreich gelöscht",
 "WEBSITE_ARCHIVES"  => "Website-Sicherungen",
@@ -285,9 +286,9 @@ $i18n = [
 "DELETE_ARCHIVE"    => "Sicherung löschen",
 "TOTAL_ARCHIVES"    => "Website-Sicherungen",
 
-/* 
- * For: include-nav.php
-*/
+	/* 
+	 * For: include-nav.php
+	*/
 "WELCOME"      => "Willkommen",
 "TAB_PAGES"    => "<em>S</em>eiten",
 "TAB_FILES"    => "<em>D</em>ateien",
@@ -298,51 +299,51 @@ $i18n = [
 "TAB_SUPPORT"  => "<em>U</em>nterstützung",
 "TAB_LOGOUT"   => "<em>A</em>bmelden",
 
-/* 
- * For: sidebar-files.php
-*/
+    /* 
+     * For: sidebar-files.php
+    */
 "BROWSE_COMPUTER" => "Auf dem Computer suchen",
 "UPLOAD"          => "Hochladen",
 
-/* 
- * For: sidebar-support.php
-*/
+    /* 
+     * For: sidebar-support.php
+    */
 "SIDE_SUPPORT_LOG"   => "<em>U</em>nterstützung",
 "SIDE_HEALTH_CHK"    => "Website-Überprüfung",
 "SIDE_DOCUMENTATION" => "<em>D</em>okumentation",
 "SIDE_VIEW_LOG"      => "<em>P</em>rotokoll anzeigen",
 
-/* 
- * For: sidebar-theme.php
-*/
+    /* 
+     * For: sidebar-theme.php
+    */
 "SIDE_VIEW_SITEMAP" => "Sitemap <em>a</em>nzeigen",
 "SIDE_GEN_SITEMAP"  => "Sitemap <em>e</em>rstellen",
 "SIDE_COMPONENTS"   => "Komponenten <em>b</em>earbeiten",
 "SIDE_EDIT_THEME"   => "<em>V</em>orlage bearbeiten",
 "SIDE_CHOOSE_THEME" => "Vorlage auswählen",
 
-/* 
- * For: sidebar-pages.php
-*/
+    /* 
+     * For: sidebar-pages.php
+    */
 "SIDE_CREATE_NEW" => "<em>N</em>eue Seite erstellen",
 "SIDE_VIEW_PAGES" => "Alle <em>S</em>eiten anzeigen",
 
-/* 
- * For: sidebar-settings.php
-*/
+    /* 
+     * For: sidebar-settings.php
+    */
 "SIDE_GEN_SETTINGS" => "Allgemeine <em>E</em>instellungen",
 "SIDE_USER_PROFILE" => "<em>B</em>enutzerprofil",
 
-/* 
- * For: sidebar-backups.php
-*/
+    /* 
+     * For: sidebar-backups.php
+    */
 "SIDE_VIEW_BAK"     => "Seiten-Sicherung anzeigen",
 "SIDE_WEB_ARCHIVES" => "<em>W</em>ebsite-Sicherungen",
 "SIDE_PAGE_BAK"     => "<em>S</em>eiten-Sicherungen",
 
-/* 
- * For: error_checking.php
-*/
+    /* 
+     * For: error_checking.php
+    */
 "ER_PWD_CHANGE"     => "Vergessen Sie nicht, das automatisch erzeugte Passwort durch ein eigenes Passwort <a href=\"settings.php#profile\">zu ersetzen</a>",
 "ER_BAKUP_DELETED"  => "Die Sicherung von <b>%s</b> wurde gelöscht",
 "ER_REQ_PROC_FAIL"  => "Der Prozess ist fehlgeschlagen",
@@ -360,15 +361,15 @@ $i18n = [
 "ER_COMPONENT_REST" => "Die Komponenten wurden wiederhergestellt",
 "ER_CANCELLED_FAIL" => "<b>Abgebrochen:</b> Die Änderungen wurden nicht übernommen",
 
-/* 
- * For: changedata.php
-*/
+    /* 
+     * For: changedata.php
+    */
 "CANNOT_SAVE_EMPTY" => "Sie können keine Seite ohne Titel abspeichern",
 "META_DESC"         => "Meta-Beschreibung",
 
-/* 
- * For: template_functions.php
-*/
+	/* 
+	 * For: template_functions.php
+	*/
 "FTYPE_COMPRESSED" => "Komprimiert", //a file-type
 "FTYPE_VECTOR"     => "Vektor", //a file-type
 "FTYPE_FLASH"      => "Flash", //a file-type
@@ -380,29 +381,28 @@ $i18n = [
 "FTYPE_MISC"       => "Sonstiges", //a file-type
 "IMAGES"           => "Bilder",
 
-/* 
- * For: login_functions.php
-*/
+	/* 
+	 * For: login_functions.php
+	*/
 "FILL_IN_REQ_FIELD" => "Bitte füllen Sie alle Pflichtfelder aus",
 "LOGIN_FAILED"      => "Anmeldung fehlgeschlagen. Bitte prüfen Sie Ihren Benutzernamen und Ihr Passwort.",
 
-/* 
- * For: Date Format
-*/
+	/* 
+	 * For: Date Format
+	*/
 "DATE_FORMAT"          => "d.m.Y",
 "DATE_AND_TIME_FORMAT" => "d.m.Y – H:i",
 
-/* 
- * For: support.php
-*/
+	/* 
+	 * For: support.php
+	*/
 "WELCOME_MSG"     => "Vielen Dank, dass Sie sich für GetSimple als Ihr CMS entschieden haben.",
 "WELCOME_P"       => "Mit GetSimple verwalten Sie Ihre Website so einfach wie möglich, mit einer der besten Anwender-Oberflächen. Wir wollen, dass das System so einfach wie möglich in der Handhabung ist, aber dem Entwickler alle benötigten Funktionen bietet.</p><p><strong>Erste Schritte:</strong></p>",
 "GETTING_STARTED" => "Erste Schritte",
 
-/* 
- * For: image.php
-*/
-
+    /* 
+     * For: image.php
+    */
 "CURRENT_THUMBNAIL" => "Aktuelles Vorschaubild",
 "RECREATE"          => "Erneut erstellen",
 "CREATE_ONE"        => "Erstellen",
@@ -418,10 +418,9 @@ $i18n = [
 "LINK_THUMBNAIL"    => "Vorschaubild als Link",
 "HTML_THUMB_ORIG"   => "Vorschaubild-zu-Bild als HTML",
 
-/* 
- * For: plugins.php
-*/
-
+    /* 
+     * For: plugins.php
+    */
 "PLUGINS_MANAGEMENT" => "Erweiterungen-Verwaltung",
 "PLUGINS_INSTALLED"  => "Installierte Erweiterungen",
 "PLUGIN_DISABLED"    => "Deaktivierte Erweiterungen",
@@ -431,16 +430,13 @@ $i18n = [
 "PLUGIN_VER"         => "Version",
 "PLUGIN_UPDATED"     => "Aktualisierte Erweiterungen",
 
+	/***********************************************************************************
+	 * SINCE Version 3.0
+	***********************************************************************************/
 
-
-/***********************************************************************************
- * SINCE Version 3.0
-***********************************************************************************/
-
-/* 
- * For: setup.php
- */
-
+	/* 
+	 * For: setup.php
+	 */
 "ROOT_HTACCESS_ERROR"     => "Die Datei <code>.htaccess</code> konnte nicht im Hauptverzeichis angelegt werden. Bitte kopieren Sie <b>%s</b> als <b>.htaccess</b> und ändern Sie <code>%s</code> in <code>%s</code>",
 "REMOVE_TEMPCONFIG_ERROR" => "<b>%s</b> konnte nicht gelöscht werden. Bitte löschen Sie die Datei manuell.",
 "MOVE_TEMPCONFIG_ERROR"   => "<b>%s</b> konnte nicht in <b>%s</b> umbenannt werden. Bitte nennen Sie die Datei manuell um.",
@@ -448,11 +444,10 @@ $i18n = [
 "REFRESH"                 => "Aktualisieren",
 "BETA"                    => "Beta",
 
-/*
- * Misc Cleanup Work
- */
-
-# new to 3.0 
+	/*
+	 * Misc Cleanup Work
+	 */
+	# new to 3.0 
 "HOMEPAGE_DELETE_ERROR" => "Die Startseite kann nicht gelöscht werden.",
 "NO_ZIPARCHIVE"         => "Die PHP-Erweiterung <i>ZipArchive</i> ist nicht installiert, es kann keine ZIP-Sicherung erstellt werden",
 "REDIRECT_MSG"          => "Wenn Ihr Browser Sie nicht weiterleitet, klicken Sie <a href=\"%s\">hier</a>",
@@ -486,7 +481,7 @@ $i18n = [
 "ARCHIVE_DATE"          => "Sicherungsdatum",
 "CKEDITOR_LANG"         => "de",
 
-# new to 3.1 
+	# new to 3.1 
 "XML_INVALID"          => "Ungültige XML-Datei",
 "XML_VALID"            => "Gültige XML-Datei",
 "UPDATE_AVAILABLE"     => "Aktualisieren auf",
@@ -512,9 +507,9 @@ $i18n = [
 "MENU_MANAGER_SUCCESS" => "Die Menü-Anordnung wurde gespeichert.",
 
 
-/* 
- * For: api related pages
- */
+    /* 
+     * For: api related pages
+     */
 "API_ERR_MISSINGPARAM" => "Diesen Parameter gibt es nicht",
 "API_ERR_BADMETHOD"    => "Diese Methode gibt es nicht",
 "API_ERR_AUTHFAILED"   => "Authentifizierung gescheitert",
@@ -527,61 +522,61 @@ $i18n = [
 "API_REGEN_DISCLAIMER" => "Wenn Sie den Schlüssel neu erzeugen, müssen Sie diesen in sämtlichen externen Anwendungen, die auf Ihre Seite zugreifen, angeben.",
 "API_CONFIRM"          => "SIND SIE SICHER?",
 
-/*
- * Default transliteration
- */
+    /*
+     * Default transliteration
+     */
     "TRANSLITERATION" 		=> [
-  // Roman
-  'á'=>'a', 'é'=>'e', 'í'=>'i', 'ó'=>'o', 'ú'=>'u',
-  'Á'=>'a', 'É'=>'e', 'Í'=>'i', 'Ó'=>'o', 'Ú'=>'u',
-  'à'=>'a', 'è'=>'e', 'ì'=>'i', 'ò'=>'o', 'ù'=>'u',
-  'À'=>'a', 'È'=>'e', 'Ì'=>'i', 'Ò'=>'o', 'Ù'=>'u',
-  'ä'=>'a', 'ë'=>'e', 'ï'=>'i', 'ö'=>'o', 'ü'=>'u',
-  'Ä'=>'a', 'Ë'=>'e', 'Ï'=>'i', 'Ö'=>'o', 'Ü'=>'u',
-  'â'=>'a', 'ê'=>'e', 'î'=>'i', 'ô'=>'o', 'û'=>'u',
-  'Â'=>'a', 'Ê'=>'e', 'Î'=>'i', 'Ô'=>'o', 'Û'=>'u',
-  'ñ'=>'n', 'ç'=>'c',
-  'Ñ'=>'n', 'Ç'=>'c',
-  '¿'=>'', '¡'=>'',
-  // special Czech chars with diacritics (except some)
-  "ě"=>"e","Ě"=>"E","š"=>"s","Š"=>"S","č"=>"c",
-  "Č"=>"c","ř"=>"r","Ř"=>"r","ž"=>"z","Ž"=>"z",
-  "ý"=>"y","Ý"=>"y",
-  "ů"=>"u","Ů"=>"u","ť"=>"t","Ť"=>"t",
-  "ď"=>"d","Ď"=>"d","ň"=>"n","Ň"=>"n",
-  //special Slovakian chars with diacritics (except some)
-  "ĺ"=>"l","ľ"=>"l","ŕ"=>"r", 
-  "Ĺ"=>"l","Ľ"=>"L","Ŕ"=>"r",
-  // Polish
-  "Ą"=>"a","Ć"=>"c","Ę"=>"e",
+		// Roman
+		'á'=>'a', 'é'=>'e', 'í'=>'i', 'ó'=>'o', 'ú'=>'u',
+		'Á'=>'a', 'É'=>'e', 'Í'=>'i', 'Ó'=>'o', 'Ú'=>'u',
+		'à'=>'a', 'è'=>'e', 'ì'=>'i', 'ò'=>'o', 'ù'=>'u',
+		'À'=>'a', 'È'=>'e', 'Ì'=>'i', 'Ò'=>'o', 'Ù'=>'u',
+		'ä'=>'a', 'ë'=>'e', 'ï'=>'i', 'ö'=>'o', 'ü'=>'u',
+		'Ä'=>'a', 'Ë'=>'e', 'Ï'=>'i', 'Ö'=>'o', 'Ü'=>'u',
+		'â'=>'a', 'ê'=>'e', 'î'=>'i', 'ô'=>'o', 'û'=>'u',
+		'Â'=>'a', 'Ê'=>'e', 'Î'=>'i', 'Ô'=>'o', 'Û'=>'u',
+		'ñ'=>'n', 'ç'=>'c',
+		'Ñ'=>'n', 'Ç'=>'c',
+		'¿'=>'', '¡'=>'',
+		// special Czech chars with diacritics (except some)
+		"ě"=>"e","Ě"=>"E","š"=>"s","Š"=>"S","č"=>"c",
+		"Č"=>"c","ř"=>"r","Ř"=>"r","ž"=>"z","Ž"=>"z",
+		"ý"=>"y","Ý"=>"y",
+		"ů"=>"u","Ů"=>"u","ť"=>"t","Ť"=>"t",
+		"ď"=>"d","Ď"=>"d","ň"=>"n","Ň"=>"n",
+		//special Slovakian chars with diacritics (except some)
+		"ĺ"=>"l","ľ"=>"l","ŕ"=>"r", 
+		"Ĺ"=>"l","Ľ"=>"L","Ŕ"=>"r",
+		// Polish
+		"Ą"=>"a","Ć"=>"c","Ę"=>"e",
 		"Ł"=>"L","Ń"=>"N","Ó"=>"O",
-  "Ś"=>"s","Ź"=>"z","Ż"=>"z",
-  "ą"=>"a","ć"=>"c","ę"=>"e",
+		"Ś"=>"s","Ź"=>"z","Ż"=>"z",
+		"ą"=>"a","ć"=>"c","ę"=>"e",
 		"ł"=>"l","ń"=>"n","ó"=>"o",
-  "ś"=>"s","ź"=>"z","ż"=>"z",
-  // Russian
-  "А"=>"a","Б"=>"b","В"=>"v",
-  "Г"=>"g","Д"=>"d","Е"=>"e","Ё"=>"yo","Ж"=>"zh",
-  "З"=>"z","И"=>"i","Й"=>"j","К"=>"k","Л"=>"l",
-  "М"=>"m","Н"=>"n","О"=>"o","П"=>"p","Р"=>"r",
-  "С"=>"s","Т"=>"t","У"=>"u","Ф"=>"f","Х"=>"h",
-  "Ц"=>"c","Ч"=>"ch","Ш"=>"sh","Щ"=>"shh","Ъ"=>"'",
-  "Ы"=>"y","Ь"=>"","Э"=>"e","Ю"=>"yu","Я"=>"ya",
-  "а"=>"a","б"=>"b","в"=>"v","г"=>"g","д"=>"d",
-  "е"=>"e","ё"=>"yo","ж"=>"zh","з"=>"z","и"=>"i",
-  "й"=>"j","к"=>"k","л"=>"l","м"=>"m","н"=>"n",
-  "о"=>"o","п"=>"p","р"=>"r","с"=>"s","т"=>"t",
-  "у"=>"u","ф"=>"f","х"=>"h","ц"=>"c","ч"=>"ch",
-  "ш"=>"sh","щ"=>"shh","ъ"=>"","ы"=>"y","ь"=>"",
-  
-  "э"=>"e","ю"=>"yu","я"=>"ya"
+		"ś"=>"s","ź"=>"z","ż"=>"z",
+		// Russian
+		"А"=>"a","Б"=>"b","В"=>"v",
+		"Г"=>"g","Д"=>"d","Е"=>"e","Ё"=>"yo","Ж"=>"zh",
+		"З"=>"z","И"=>"i","Й"=>"j","К"=>"k","Л"=>"l",
+		"М"=>"m","Н"=>"n","О"=>"o","П"=>"p","Р"=>"r",
+		"С"=>"s","Т"=>"t","У"=>"u","Ф"=>"f","Х"=>"h",
+		"Ц"=>"c","Ч"=>"ch","Ш"=>"sh","Щ"=>"shh","Ъ"=>"'",
+		"Ы"=>"y","Ь"=>"","Э"=>"e","Ю"=>"yu","Я"=>"ya",
+		"а"=>"a","б"=>"b","в"=>"v","г"=>"g","д"=>"d",
+		"е"=>"e","ё"=>"yo","ж"=>"zh","з"=>"z","и"=>"i",
+		"й"=>"j","к"=>"k","л"=>"l","м"=>"m","н"=>"n",
+		"о"=>"o","п"=>"p","р"=>"r","с"=>"s","т"=>"t",
+		"у"=>"u","ф"=>"f","х"=>"h","ц"=>"c","ч"=>"ch",
+		"ш"=>"sh","щ"=>"shh","ъ"=>"","ы"=>"y","ь"=>"",
+
+		"э"=>"e","ю"=>"yu","я"=>"ya"
 	],
 
 "X" => "nicht übersetzt",
 
-/*
- * Additions for 3.1
- */
+	/*
+	 * Additions for 3.1
+	 */
 "DEBUG_CONSOLE" => "Debug-Konsole",
 
 ];
