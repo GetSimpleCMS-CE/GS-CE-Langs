@@ -157,7 +157,7 @@ $i18n = [
 "VIEWING" 					=> 	"表示",//"Viewing",
 "LOG_FILE" 					=> 	"ログファイル",//"Log File",
 "CLEAR_ALL_DATA" 		=> 	"すべてのデータをクリアします",//"Clear all data from",
-"CLEAR_THIS_LOG" 		=> 	"<em>C</em>lear This Log", // 'c' is the accesskey identifier,
+"CLEAR_THIS_LOG" 		=> 	"Clear This Log", // 'c' is the accesskey identifier,
 "LOG_FILE_ENTRY" 		=> 	"ログファイルのエントリ",//"LOG FILE ENTRY",
 "THIS_COMPUTER"			=>	"このコンピュータ",//"This Computer",
 
@@ -410,7 +410,7 @@ $i18n = [
 "ORIGINAL_IMG" => "元の画像",
 "CLIPBOARD_INSTR" => "すべて選択",
 "CREATE_THUMBNAIL" => "サムネイルの作成",
-"CROP_INSTR_NEW" => "<em> ctrl-B</em>または<em>コマンド-B</ em>（正方形の場合）",
+"CROP_INSTR_NEW" => "<em> ctrl-B</em>または<em>コマンド-B</em>（正方形の場合）",
 "SELECT_DIMENTIONS" => "選択次元",
 "HTML_ORIG_IMG" => "元の画像のHTML",
 "LINK_ORIG_IMG" => "元の画像リンク",
@@ -422,6 +422,7 @@ $i18n = [
      * For: plugins.php
     */
 "PLUGINS_MANAGEMENT"=> "プラグイン管理",
+"PLUGINS_MANAGEMENT_INFO"	=> "一部のプラグインは、正しく機能するために追加の js/css スクリプトを必要とする場合があります。<br>「modernScript CE」プラグインが有効になっていることを確認し、設定を確認してください。",
 "PLUGINS_INSTALLED" => "個のプラグインがインストール済みです。",
 "PLUGIN_DISABLED"   => "無効のプラグイン",
 "SHOW_PLUGINS"			=> "プラグイン一覧",
@@ -491,8 +492,8 @@ $i18n = [
 "COPY" => "コピー",
 "CLONE_ERROR" => "<b>％s </ b>のクローンを作成しようとして問題が発生しました",
 "AUTOSAVE_NOTIFY" =>'ページが自動保存されました',
-"MENU_MANAGER" =>'<em> M </ em> enu 管理',
-"GET_PLUGINS_LINK" =>'<em> M </ em>oreプラグインをダウンロード',
+"MENU_MANAGER" =>'Menu 管理',
+"GET_PLUGINS_LINK" =>'Moreプラグインをダウンロード',
 "SITEMAP_REFRESHED" => "サイトマップが更新されました",
 "LOG_FILE_EMPTY" => "このログファイルは空です",
 "SHARE"=>"共有",
