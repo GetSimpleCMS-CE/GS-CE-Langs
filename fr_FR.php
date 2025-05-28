@@ -17,7 +17,7 @@ $i18n = [
     /* 
      * For: install.php
     */
-    'PHPVER_ERROR' => "<b>L'installation ne peut pas se poursuivre :</b> une version de PHP égale ou supérieure &#224; 5.2 est requise - version actuellement installée : "
+    'PHPVER_ERROR' => "<b>L'installation ne peut pas se poursuivre :</b> une version de PHP égale ou supérieure &#224; 7.4 est requise - version actuellement installée : "
   , 'SIMPLEXML_ERROR' => "<b>L'installation ne peut pas se poursuivre :</b> <em>SimpleXML</em> n'est pas installé"
   , 'CURL_WARNING' => "<b>Avertissement :</b> <em>cURL</em> n'est pas installé"
   , 'TZ_WARNING' => "<b>Avertissement :</b> le paramètre <em>date_default_timezone_set</em> n'est pas renseigné"
@@ -420,7 +420,7 @@ $i18n = [
      * For: plugins.php
     */
   , 'PLUGINS_MANAGEMENT' => "Gestion des Plugins (Extensions)"
-    "PLUGINS_MANAGEMENT_INFO"	=> "Certains plugins peuvent nécessiter des scripts js/css supplémentaires pour fonctionner correctement.<br>Assurez-vous que le plugin 'modernScript CE' est activé et vérifiez les paramètres.",
+  , 'PLUGINS_MANAGEMENT_INFO'	=> "Certains plugins peuvent nécessiter des scripts js/css supplémentaires pour fonctionner correctement.<br>Assurez-vous que le plugin 'modernScript CE' est activé et vérifiez les paramètres."
   , 'PLUGINS_INSTALLED' => "Plugins install&eacute;s"
   , 'PLUGIN_DISABLED' => "Plugin désactivé"
   , 'SHOW_PLUGINS' => "Plugins Install&eacute;s"

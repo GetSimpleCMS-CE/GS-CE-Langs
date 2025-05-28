@@ -17,7 +17,7 @@ $i18n = [
     /* 
      * For: install.php
     */
-"PHPVER_ERROR" => "<strong>Impossibile proseguire:</strong> Richiesto PHP 5.1.3 o maggiore, al momento è installato ",
+"PHPVER_ERROR" => "<strong>Impossibile proseguire:</strong> Richiesto PHP 7.4 o maggiore, al momento è installato ",
 "SIMPLEXML_ERROR" => "<strong>Impossibile proseguire:</strong> <em>SimpleXML</em> non è installato",
 "CURL_WARNING" => "<strong>Attenzione:</strong> <em>cURL</em> non è installato",
 "TZ_WARNING" => "<strong>Attenzione:</strong> <em>date_default_timezone_set</em> è mancante",
